@@ -33,3 +33,13 @@ ol.pagination a[rel="prev"],
 ol.pagination a[rel="next"]{
 	border: none;
 }
+
+/*加上箭头指向，更为形象*/
+ol.pagination a[rel="prev"]:before{
+	content: "\00AB";
+	margin-right: 0.5em;
+}
+ol.pagination a[rel="next"]:after{
+	content: "\00BB";
+	margin-left: 0.5em;
+}
