@@ -15,13 +15,18 @@ ul.nav li{
 ul.nav a{
 	display: block;
 	line-height: 2.1em;
-	padding: 0 2em;
+	padding: 0 3em;
 	border-left: 2px solid black;
 	text-decoration: none;
-	color: blue;
+	color: #fff;
 }
 
 /* 想去掉第一个元素左边的分割线，但是不起作用，先留着这些代码*/
 ul.first{
 	border-left: 0px;
+}
+
+/**用户鼠标悬空是改变字体颜色*/
+ul.nav a:hover,ul.nav a:focus{
+	color: #333;
 }
