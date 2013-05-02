@@ -27,3 +27,9 @@ ol.pagination a:hover, ol.pagination a:focus, ol.pagination li.selected{
 	background-color: blue;
 	color: white;
 }
+
+/*这操作可以把Pre和Next的边框去掉*/
+ol.pagination a[rel="prev"],
+ol.pagination a[rel="next"]{
+	border: none;
+}
