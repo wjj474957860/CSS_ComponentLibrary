@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0061)http://ningyuhua.xicp.net:5857/webaddressbook2.0/register.jsp -->
+<html>
+<!--head部分-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>帐号注册</title>
+  <link rel="stylesheet" type="text/css" href="./帐号注册_files/register-min.css"></head>
+
+<!--body部分-->
+<body>
+  <form action="http://ningyuhua.xicp.net:5857/webaddressbook2.0/RegisterAction" method="post">
+    <div id="table" class="radius">
+      <div class="wrapper">
+
+        <h1>帐号注册</h1>   <!--注册大标题-->
+        <p>
+          <label for="id">身份证号:</label>
+          <input name="id" id="id" type="text" placeholder=" 如: 888888888888888888"/>
+        </p>
+
+        <p>
+          <label for="username">真实姓名:</label>
+          <input name="username" type="text" placeholder=" 如: 张三"></p>
+
+        <p>
+          <label for="phonenumber">手机号码:</label>
+          <input name="phonenumber" type="text" placeholder=" 如: 11011912000"></p>
+
+        <p>
+          <label for="currentaddress">现居住地:</label>
+          <input name="currentaddress" type="text" placeholder=" 如: 广州市 XX 区 XX 街道 XX 号"></p>
+
+        <p>
+          <label for="career">工作类型:</label>
+          <input name="career" type="text" placeholder=" 如: Web前端开发"></p>
+
+        <p>
+          <label for="workt">现任职务:</label>
+          <input name="workt" type="text" placeholder=" 如: XX 攻城师"></p>
+
+        <p>
+          <label for="question">登录问题:</label>
+          <input name="question" type="text" placeholder=" 如: 我的学号是？"></p>
+
+        <p>
+          <label for="answer">问题答案:</label>
+          <input name="answer" type="text" placeholder=" 如: 2013"></p>
+
+        <input type="hidden" name="method" value="insertuser">
+
+        <!--可以链接到登录界面-->
+        <p class="left10em">已有帐号?!&nbsp;&nbsp;<a href="#">马上登录</a></p>
+
+        <!--“马上注册”的按钮-->
+        <input id="input" name="submit" type="submit" value="马上注册"></div>
+    </div>
+  </form>
+</body>
+</html>
