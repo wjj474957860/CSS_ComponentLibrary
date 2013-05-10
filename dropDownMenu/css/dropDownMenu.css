@@ -1,0 +1,43 @@
+body{
+	background: #fff;
+}
+ul.nav, ul.nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;    /*没有列表点*/
+	float: left;
+}
+
+/*水平显示*/
+ul.nav li{
+	width: 8em;
+	float: left;
+	background: url(../images/tab-right.gif) no-repeat right top;
+}
+
+ul.nav li ul{
+	width: 8em;
+	position: absolute;
+	left: -999em;
+}
+
+/*添加分割线*/
+ul.nav li a{
+	display: block;
+	line-height: 2.5em;
+	padding: 0 3em;
+	background: url(../images/tab-left.gif) no-repeat left top;
+	text-decoration: none;
+	color: #fff;
+	float: left;
+}
+
+.nav li:hover ul{
+	left: auto;
+	display: block;
+}
+
+/**用户鼠标悬空是改变字体颜色*/
+ul.nav a:hover,ul.nav a:focus{
+	color: #333;
+}
