@@ -3,7 +3,7 @@ ul.nav{
 	padding: 0;
 	list-style: none;    /*没有列表点*/
 	overflow: hidden;    /*因为li元素浮动，然后，父列表实际上没有内容，插不上背景图，所以用overflow: hidden;技术来解决*/
-	background: #FAA819 url(images/mainNavBg.gif) repeat-x;
+	background: #FAA819 url(../images/mainNavBg.gif) repeat-x;
 }
 
 /*水平显示*/
@@ -14,16 +14,16 @@ ul.nav li{
 /*添加分割线*/
 ul.nav a{
 	display: block;
-	line-height: 2.1em;
+	line-height: 2.5em;
 	padding: 0 3em;
-	border-left: 2px solid black;
+	background: url(../images/divider.gif) repeat-y left top;
 	text-decoration: none;
 	color: #fff;
 }
 
 /* 想去掉第一个元素左边的分割线，但是不起作用，先留着这些代码*/
-ul.first{
-	border-left: 0px;
+ul.nav .first{
+	background-image: none;
 }
 
 /**用户鼠标悬空是改变字体颜色*/

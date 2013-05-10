@@ -1,3 +1,6 @@
+body{
+	background: #fff;
+}
 ul.nav{
 	margin: 0;
 	padding: 0;
@@ -9,16 +12,15 @@ ul.nav{
 /*水平显示*/
 ul.nav li{
 	float: left;
-	background: url(images/tab-right.gif) no-repeat right top;
+	background: url(../images/tab-right.gif) no-repeat right top;
 }
 
 /*添加分割线*/
 ul.nav li a{
 	display: block;
-	line-height: 2.1em;
+	line-height: 2.5em;
 	padding: 0 3em;
-	border-left: 2px solid black;
-	background: url(images/tab-left.gif) no-repeat left top;
+	background: url(../images/tab-left.gif) no-repeat left top;
 	text-decoration: none;
 	color: #fff;
 	float: left;
