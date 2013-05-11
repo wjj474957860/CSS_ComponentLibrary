@@ -1,0 +1,8 @@
+body{background:#fff url(../images/bg.jpg) repeat top left}#loginWindow{min-height:350px;margin:0 auto;width:480px;margin-top:8%;position:relative}#loginWindow:hover{background-color:rgba(0,170,170,0.8)}
+div.wrapper{width:22em;height:auto;margin:0 auto;font-family:"微软雅黑"}h1{padding:.5em 0 .4em 0;text-align:center;border-bottom:1px solid #ae113d}
+.radius{border-radius:5px;background-color:rgba(0,170,170,0.7);opacity:1;box-shadow:3px 3px 6px #666}label{text-align:right;float:left;width:5em;margin-right:.5em;font-weight:bold;cursor:pointer}
+input{width:25em;height:1.7em;font-size:.8em;border-radius:5px;font-family:"arial";font-weight:bold}textarea{width:100%;height:6em}
+input[type="text"]{width:20em}input[type="submit"]{width:5em;height:2.5em;font-size:1.3em;cursor:pointer;background:rgba(174,17,61,0.8);padding:8px 5px;color:#fff;border:1px solid #1c6c7a;margin-bottom:10px;text-shadow:0 1px 1px rgba(0,0,0,0.5);-webkit-border-radius:3px;float:right;font-family:"微软雅黑"}
+input[type="submit"]:hover{background:rgba(174,17,61,1)}input[type="text"],textarea{border-top:2px solid #999;border-left:2px solid #999;border-right:1px solid #ccc;border-bottom:1px solid #ccc}
+p.left10em{width:10em;float:left;text-align:right}input[type="text"]:focus,textarea:focus{background:#ff9}input[type="text"]:hover{background:#ff9}
+button.getQuestion{display:block;width:6em;font-size:.8em;font-family:"微软雅黑";cursor:pointer}
