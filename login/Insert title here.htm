@@ -7,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="./Insert title here_files/index.css"></head>
 
 <body>
-	<form id="loginform" method="post" action="http://ningyuhua.xicp.net:5857/webaddressbook2.0/login_check_action">
-		<div id="loginWindow" class="radius">
-			<div class="wrapper">
+	<div id="loginWindow" class="radius">
+		<div class="wrapper">
+			<form id="loginform" method="post" action="http://ningyuhua.xicp.net:5857/webaddressbook2.0/login_check_action">
 
 				<h1>用户登录</h1>
 				<!--注册大标题-->
@@ -20,22 +20,26 @@
 
 				<p>
 					<label for="question">登录问题:</label>
-					<input name="question" type="text" placeholder=" 如: 我的学号是？"></p>
-
+					<input id="showQuestion" class="reducewidth" name="questiontd" type="text" placeholder=" 如: 我的学号是？"></p>
+				
 				<p>
 					<label for="answer">问题答案:</label>
 					<input name="questanswer" type="text" placeholder=" 如: 2013"></p>
-<button class="getQuestion" id="questionbutton" onclick="createxmlhttprequest()">获取问题</button>
+
 				<!--可以链接到登录界面-->
 				<p class="left10em">
 					没有帐号?!&nbsp;&nbsp;
 					<a href="http://ningyuhua.xicp.net:5857/webaddressbook2.0/register.jsp">马上注册</a>
 				</p>
-				
+
 				<!--“马上注册”的按钮-->
-				<input id="submit" name="submit" type="submit" value="马上登录"></div>
+				<input id="submit" name="submit" type="submit" value="马上登录"></form>
+				
 		</div>
-	</form>
+		<!--获取问题按钮-->
+		<button class="getQuestion" id="questionbutton" onclick="createxmlhttprequest()">获取问题</button>
+	</div>
+	
 	<script language="javascript">
 function createxmlhttprequest()
 {
