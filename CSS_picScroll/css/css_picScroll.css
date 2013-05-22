@@ -1,0 +1,55 @@
+/* 设置整个滚动图片窗口 */
+dl {
+	position: relative; /*相对定位，定义一个包含块*/
+	width: 683px;
+	height: 384px;
+	border: 2px solid #333;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* 设置列表标题属性 */
+dt {
+	position: absolute;
+	width: 683px;
+	height: 30px;
+	/* 位于右下角 */
+	right: 0px;
+	bottom: 0px;
+	background: #94b3c5;
+	filter:alpha( opacity = 40);
+	opacity: 4;
+	
+}
+
+/* 设置图片大小，限制条件*/
+dd {
+	width: 683px;
+	height: 384px;
+	margin: 0;
+	overflow: hidden;
+}
+
+dd img {
+	width: 683px;
+	height: 384px;
+
+}
+
+/* 定义超链接的属性 */
+dt a {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 4px; 
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	margin-left: 4px; 
+
+}
+/* 鼠标经过的样式*/
+a:hover {
+	background: blue;
+};
