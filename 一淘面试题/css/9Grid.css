@@ -1,0 +1,48 @@
+/* 定义全局table属性*/
+table {
+	position: absolute;
+	/* 为了好计算，top,left都为0 */
+	top: 0;
+	left: 0;
+}
+/* 第二列距离left的绝对定位 */
+.moveLeft55px {
+	left: 55px;
+}
+/* 第三列距离left的绝对定位 */
+.moveLeft110px {
+	left: 110px;
+}
+/* 第二行距离top的绝对定位 */
+.moveTop55px {
+	top: 55px;
+}
+/* 第二行距离top的绝对定位 */
+.moveTop110px {
+	top: 110px;
+}
+
+/* 定义td属性 */
+td {
+	position: absolute;
+	/* 数字框的大小 */
+	width: 50px;
+	height: 50px;
+	/* 设置边框样式 */
+	border: 5px solid blue;
+	/* 设置内外边距为0，也是关键点，不设置就会边框模糊*/
+	padding: 0;
+	margin: 0;
+	/* 设置字体左右上下居中 */
+	text-align: center;
+	line-height: 50px;
+}
+
+/* 鼠标经过td的样式*/
+td:hover {
+	border-color: red;
+	/*这个字体变大是自己加的*/
+	font-size: 20px;
+	/* 这个属性关键，目的就是使得整块上浮，显示红框*/ 
+	z-index: 100; 
+}
