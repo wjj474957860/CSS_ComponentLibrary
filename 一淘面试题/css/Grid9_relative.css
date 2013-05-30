@@ -1,0 +1,54 @@
+/* 定义全局table属性*/
+table {
+	position: relative;
+	top: 150px;
+	margin: 0 auto;
+}
+/* 第二列距离left的相对定位 */
+.moveLeft5px {
+	left: -5px;
+}
+/* 第三列距离left的相对定位 */
+.moveLeft10px {
+	left: -10px;
+}
+/* 第二行距离top的相对定位 */
+.moveTop5px {
+	top: -5px;
+}
+/* 第二行距离top的相对定位 */
+.moveTop10px {
+	top: -10px;
+}
+
+/* 定义td属性 */
+td {
+	position: relative;
+	/* 数字框的大小 */
+	width: 100px;
+	height: 100px;
+	/* 设置边框样式 */
+	border: 5px solid blue;
+	/* 设置内外边距为0，也是关键点，不设置就会边框模糊 */
+	padding: 0;
+	margin: 0;
+	/* 设置字体左右上下居中 */
+	text-align: center;
+
+	font-size: 80px;
+	/* 设置字体 */
+	font-family: 'arial';
+
+	/* 目的是使字体上下居中 */
+	line-height: 100px;
+}
+
+/* 鼠标经过td的样式*/
+td:hover {
+	border-color: red;
+	/* 这个字体变大是自己加的 */
+	font-size: 100px;
+	font-weight: bold;
+	/* 这个属性关键，目的就是使得整块上浮，显示红框 */ 
+	z-index: 100; 
+}
