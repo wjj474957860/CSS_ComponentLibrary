@@ -1,8 +1,12 @@
+body{
+	/*一种IE6的hack居中*/
+	text-align: center; 
+}
 /* 定义全局table属性*/
 table {
-	position: relative;
-	top: 150px;
+	
 	margin: 0 auto;
+
 }
 /* 第二列距离left的相对定位 */
 .moveLeft5px {
